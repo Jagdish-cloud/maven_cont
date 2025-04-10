@@ -1,8 +1,7 @@
 pipeline {
-    // Define where this pipeline will run (any available agent)
-    agent any
 
-  
+    agent any
+ 
     stages {
         // Stage 1: Checkout code from Git
         stage('Checkout') {
