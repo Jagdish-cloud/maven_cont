@@ -9,7 +9,7 @@ pipeline {
             steps {
                 // Fetch the code from the Git repository
                 git branch: 'main', // Replace with your branch name (e.g., 'master', 'develop')
-                    credentialsId: 'jagadishjaga946@gmail.com', // Replace with your Jenkins credentials ID
+                    credentialsId: '3d155c11-794a-4d56-b9b3-d46fccd770ba', // Replace with your Jenkins credentials ID
                     url: 'https://github.com/Jagdish-cloud/maven_cont.git' // Replace with your Git repo URL
             }
         }
